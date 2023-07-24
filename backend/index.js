@@ -10,7 +10,7 @@ const express = require('express')
 const app = express()
 const PORT = 5000
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://speedyeat.onrender.com");
+  res.setHeader("Access-Control-Allow-Origin", "https://main--stupendous-axolotl-4b9344.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
